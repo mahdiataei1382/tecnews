@@ -4,10 +4,10 @@ from .models import NewModel, TagModel
 class TagSerializer(serializers.ModelSerializer):
     class Meta:
         model = TagModel
-        fields = ['id', 'name']
+        fields = ['id', 'Name']
 
 class NewsSerializer(serializers.ModelSerializer):
-    tags = TagSerializer(many=True)
+    Tags = TagSerializer(many=True)
     class Meta:
         model = NewModel
-        fields = ['id', 'title', 'text', 'tags', 'source']
+        fields = ['id', 'Title', 'Text', 'Tags', 'Source']
