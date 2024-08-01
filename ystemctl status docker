@@ -1,0 +1,22 @@
+[0;1;32m●[0m docker.service - Docker Application Container Engine
+     Loaded: loaded (]8;;file://mehdi-ROG-Strix-G513IE-G513IE/usr/lib/systemd/system/docker.service/usr/lib/systemd/system/docker.service]8;;; [0;1;32menabled[0m; preset: [0;1;32menabled[0m)
+     Active: [0;1;32mactive (running)[0m since Tue 2024-07-30 02:28:02 +0330; 1h 44min left
+TriggeredBy: [0;1;32m●[0m docker.socket
+       Docs: ]8;;https://docs.docker.comhttps://docs.docker.com]8;;
+   Main PID: 1584 (dockerd)
+      Tasks: 22
+     Memory: 95.8M (peak: 98.9M)
+        CPU: 1.391s
+     CGroup: /system.slice/docker.service
+             └─[0;38;5;245m1584 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock[0m
+
+Jul 30 02:28:02 mehdi-ROG-Strix-G513IE-G513IE dockerd[1584]: time="2024-07-30T02:28:02.144198142+03:30" level=info msg="Starting up"
+Jul 30 02:28:02 mehdi-ROG-Strix-G513IE-G513IE dockerd[1584]: time="2024-07-30T02:28:02.148754448+03:30" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+Jul 30 02:28:02 mehdi-ROG-Strix-G513IE-G513IE dockerd[1584]: time="2024-07-30T02:28:02.187778751+03:30" level=info msg="[graphdriver] using prior storage driver: overlay2"
+Jul 30 02:28:02 mehdi-ROG-Strix-G513IE-G513IE dockerd[1584]: time="2024-07-30T02:28:02.191551437+03:30" level=info msg="Loading containers: start."
+Jul 30 02:28:02 mehdi-ROG-Strix-G513IE-G513IE dockerd[1584]: time="2024-07-30T02:28:02.475762908+03:30" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+Jul 30 02:28:02 mehdi-ROG-Strix-G513IE-G513IE dockerd[1584]: time="2024-07-30T02:28:02.525355664+03:30" level=info msg="Loading containers: done."
+Jul 30 02:28:02 mehdi-ROG-Strix-G513IE-G513IE dockerd[1584]: time="2024-07-30T02:28:02.554966690+03:30" level=info msg="Docker daemon" commit=24.0.7-0ubuntu4 graphdriver=overlay2 version=24.0.7
+Jul 30 02:28:02 mehdi-ROG-Strix-G513IE-G513IE dockerd[1584]: time="2024-07-30T02:28:02.555387902+03:30" level=info msg="Daemon has completed initialization"
+Jul 30 02:28:02 mehdi-ROG-Strix-G513IE-G513IE dockerd[1584]: time="2024-07-30T02:28:02.582259125+03:30" level=info msg="API listen on /run/docker.sock"
+Jul 30 02:28:02 mehdi-ROG-Strix-G513IE-G513IE systemd[1]: Started docker.service - Docker Application Container Engine.
